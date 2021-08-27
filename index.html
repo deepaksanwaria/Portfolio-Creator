@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheets/create.css">
+    <title>Create Portfolio</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Create Portfolio</h1>
+        <div class="form">
+            <form action="Portfolio.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <input type="text" name="name" placeholder="Enter Name" required><br>
+                <input type="text" name="des" placeholder="Enter Designation" required><br>
+                <input type="text" name="github" placeholder="Enter GitHub Profile Link" required><br>
+                <input type="text" name="instagram" placeholder="Enter Instagram Profile Link" required><br>
+                <input type="text" name="lindedin" placeholder="Enter Lindedin Profile Link" required><br>
+                <input type="text" name="twitter" placeholder="Enter Twitter Profile Link" required><br>
+
+                <label for="profile_image">Profile image</label>
+                <input type="file" accept="image/*" name="pro_image" id="profile_image" required><br>
+                <label for="about">About Me</label><br>
+                <textarea name="about" id="about" cols="80" rows="4" placeholder="Describe Your Self"></textarea><br>
+
+                <label for="skill">Skills & Exprience</label><br>
+                <textarea name="skills" id="skill" cols="80" rows="4" placeholder="Describe Your Exprience"></textarea><br>
+                <input type="text" name="skillitem1" id="" placeholder="Enter Skill Subject ">
+                <input type="number" name="skillper1" id="" placeholder="Enter Skill of above subject in percentage "><br>
+                <input type="text" name="skillitem2" id="" placeholder="Enter Skill Subject ">
+                <input type="number" name="skillper2" id="" placeholder="Enter Skill of above subject in percentage "><br>
+                <input type="text" name="skillitem3" id="" placeholder="Enter Skill Subject ">
+                <input type="number" name="skillper3" id="" placeholder="Enter Skill of above subject in percentage "><br>
+                <input type="text" name="skillitem4" id="" placeholder="Enter Skill Subject ">
+                <input type="number" name="skillper4" id="" placeholder="Enter Skill of above subject in percentage "><br>
+                <input type="text" name="skillitem5" id="" placeholder="Enter Skill Subject ">
+                <input type="number" name="skillper5" id="" placeholder="Enter Skill of above subject in percentage "><br>
+
+                <label for="service_1">My Services Item 1</label><br>
+                <input type="text" name="serviceh1" placeholder="Heading" id="service_1" required><br>
+                <textarea name="srcvice_des1" id="about" cols="30" rows="5" placeholder="Describe the Services"></textarea><br>
+                <label for="service_2">My Services Item 2</label><br>
+                <input type="text" name="serviceh2" placeholder="Heading" id="service_2" required><br>
+                <textarea name="srcvice_des2" id="about" cols="30" rows="5" placeholder="Describe the Services"></textarea><br>
+                <label for="service_3">My Services Item 3</label><br>
+                <input type="text" name="serviceh3" placeholder="Heading" id="service_3" required><br>
+                <textarea name="srcvice_des3" id="about" cols="30" rows="5" placeholder="Describe the Services"></textarea><br>
+
+                <label for="project_image1">Project Image 1</label>
+                <input type="file" accept="image/*" name="project1" id="project_image1" required><br>
+                <label for="project_image2">Project Image 2</label>
+                <input type="file" accept="image/*" name="project2" id="project_image2" required><br>
+                <label for="project_image3">Project Image 3</label>
+                <input type="file" accept="image/*" name="project3" id="project_image3" required><br>
+
+                <input type="text" name="Address" placeholder="Enter Your Address" required><br>
+                <input type="number" name="phone" id="" placeholder="Enter your Phone Number" required><br>
+                <input type="email" name="email" placeholder="Enter Your Email" required><br>
+                <input type="submit" value="Create" name="submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

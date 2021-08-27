@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  position: fixed;
+  background: url(../Media/bg1.jpg) no-repeat center;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.8;
+}
+.container {
+  /* position: absolute; */
+  z-index: 1;
+  transform: translateY(100px);
+  background-color:  #f2f2f2;
+  height: fit-content;
+  margin: auto;
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  text-align: center;
+}
+.container h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    
+}
+.form{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.form input[type="text"], input[type="email"], input[type="number"],input[type="Submit"],input[type="Reset"]{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 35px;
+    width:80%;
+    border-radius: 20px;
+    text-indent: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border:0 ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.form label{
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.form textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size:22px;
+    max-width:80%;
+    width: 80%;
+    text-indent: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 0;
+}
+.form input[type="file"]{
+    margin-left: 100px;
+    width:40%;
+    font-size:20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.form input[type="Submit"]{
+    width: 35% !important;
+    background-color:green;
+    color:white;
+    margin-right: 5%;
+    cursor: pointer;
+    height: 40px;
+    }
+
+    .form input[type="Reset"]{
+        width: 35% !important;
+        background-color:Red;
+        color:white;
+        cursor: pointer;
+        height: 40px;
+        }
+.form input:focus, textarea:focus{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
+    outline: 0;
+}
+.form input:hover, textarea:focus{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
