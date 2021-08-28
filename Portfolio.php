@@ -5,6 +5,7 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $des=$_POST['des'];
     $github=$_POST['github'];
+    $instagram=$_POST['instagram'];
     $lindedin=$_POST['lindedin'];
     $twitter=$_POST['twitter'];
     $about=$_POST['about'];
